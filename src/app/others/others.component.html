@@ -1,0 +1,23 @@
+<body class="backs">
+    <marquee class="name">EasyPick.com</marquee>
+  <br>
+  <marquee class="women">Your Fashion is our Passion</marquee>
+  <div class="row" style="margin: 20px;">
+    <div class="col-sm-1"></div>
+     <div class="col-sm-11 ">
+        <div class="items">
+    
+    <div class="row">
+    
+              <div class="carousel-bg" *ngFor="let railitem of railItems;let i=index;">
+                
+                  
+                <img  src={{railitem.image}} onerror="this.src='./assets/images/no_image.jpg';"
+                  class="item">
+                <div style="padding: 5px 0px;color: black;"> {{railitem.name}} </div>
+                <div><span class="final-price">{{railitem.sp}} </span>
+                  <span class="actual-price">{{railitem.mrp}} </span>
+                  <span class="discount">{{railitem.discount}}% off </span>
+                </div></div></div></div></div>
+              </div>
+              </body>

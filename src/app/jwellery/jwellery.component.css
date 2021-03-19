@@ -1,0 +1,49 @@
+.carousel-bg{
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    
+}
+.item{
+    height:200px;
+    width :200px;
+    white-space: normal;
+    
+}
+.final-price{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #212121;
+    margin-right: 10px;
+}
+.actual-price{
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #878787;
+    margin-right: 10px;
+
+}
+.discount{
+    color: #388e3c;
+    font-size: 13px;
+    letter-spacing: -.2px;
+    font-weight: 500;
+}
+.women{
+    direction:ltr;
+    color:rgb(240, 128, 30);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width:50%;
+}
+.name{
+    color: red;
+    font-size:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.backs{
+    background-color:linen;
+}
